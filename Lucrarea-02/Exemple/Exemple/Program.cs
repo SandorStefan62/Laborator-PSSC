@@ -26,7 +26,7 @@ namespace Exemple
 
         private static List<UnvalidatedStudentGrade> ReadListOfGrades()
         {
-            List <UnvalidatedStudentGrade> listOfGrades = new();
+            List<UnvalidatedStudentGrade> listOfGrades = new();
             do
             {
                 //read registration number and grade and create a list of greads
@@ -42,7 +42,7 @@ namespace Exemple
                     break;
                 }
 
-                listOfGrades.Add(new (registrationNumber, grade));
+                listOfGrades.Add(new(registrationNumber, grade));
             } while (true);
             return listOfGrades;
         }
